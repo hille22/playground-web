@@ -1,0 +1,41 @@
+html, body { height: 100%; margin: 0; }
+.container {
+  font-size: 120px;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: "un deux"
+    "trois quatre";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  
+  .un {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: un;
+    background-color: darkorange;
+  }
+  .deux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: deux;
+    background-color: darksalmon;
+  }
+  .trois {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: trois;
+    background-color: goldenrod;
+  }
+  .quatre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: quatre;
+    background-color: khaki;
+  }
